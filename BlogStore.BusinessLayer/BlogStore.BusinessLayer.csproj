@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlogStore.EntityLayer\BlogStore.EntityLayer.csproj" />
+    <ProjectReference Include="..\BlogStore.DataAccessLayer\BlogStore.DataAccessLayer.csproj" />
   </ItemGroup>
 
 </Project>

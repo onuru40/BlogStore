@@ -7,7 +7,7 @@ namespace BlogStore.DataAccessLayer.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=;initial catalog=BlogStoreNightDb;integrated Security=true;trust server certificate=true;");
+            optionsBuilder.UseSqlServer("Server=ONUR\\SQLEXPRESS;initial catalog=BlogStoreNightDb;integrated Security=true;trust server certificate=true;");
         }
 
         public DbSet<Category> Categories { get; set; }
