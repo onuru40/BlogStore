@@ -1,14 +1,7 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
-<!-- /*
-* Template Name: Blogy
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
 <!doctype html>
 <html lang="en">
 
@@ -27,12 +20,14 @@
 
                 <div class="col-md-12 col-lg-8 main-content">
 
+                    @await Component.InvokeAsync("_ArticleDetailContentComponentPartial", new { id = ViewBag.i })
 
                     <div class="pt-5">
                         <p>Categories:  <a href="#">Food</a>, <a href="#">Travel</a>  Tags: <a href="#">#manila</a>, <a href="#">#asia</a></p>
                     </div>
 
-                    @await Component.InvokeAsync("_ArticleDetailCommentListComponentPartial")
+
+                    @await Component.InvokeAsync("_ArticleDetailCommentListComponentPartial", new { id = ViewBag.i })
 
                 </div>
 
@@ -45,15 +40,14 @@
                             <input type="text" class="form-control" id="s" placeholder="Type a keyword and hit enter">
                         </form>
                     </div>
-
                     <!-- END sidebar-box -->
-
                     @await Component.InvokeAsync("_ArticleDetailAboutAuthorComponentPartial")
 
                     <!-- END sidebar-box -->
                     @await Component.InvokeAsync("_ArticleDetailPopularPostsComponentPartial")
                     <!-- END sidebar-box -->
                     @await Component.InvokeAsync("_ArticleDetailCategoryListComponentPartial")
+
 
                     <!-- END sidebar-box -->
 
@@ -83,12 +77,10 @@
 
 
     <!-- Start posts-entry -->
-
     <!-- End posts-entry -->
     @await Component.InvokeAsync("_ArticleDetailFooterComponentPartial")
-
+    <!-- /.site-footer -->
     <!-- Preloader -->
-
     @await Component.InvokeAsync("_ScriptsLayoutComponentPartial")
 
 </body>
