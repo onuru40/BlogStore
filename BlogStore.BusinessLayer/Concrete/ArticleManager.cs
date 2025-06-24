@@ -1,11 +1,6 @@
 ﻿using BlogStore.BusinessLayer.Abstract;
 using BlogStore.DataAccessLayer.Abstract;
 using BlogStore.EntityLayer.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlogStore.BusinessLayer.Concrete
 {
@@ -25,6 +20,11 @@ namespace BlogStore.BusinessLayer.Concrete
             return _articleDal.GetAll();
         }
 
+        public AppUser TGetAppUserByArticleId(int id)
+        {
+            return _articleDal.GetAppUserByArticleId(id);
+        }
+
         public List<Article> TGetArticlesWithCategories()
         {
             return _articleDal.GetArticlesWithCategories();
@@ -34,6 +34,12 @@ namespace BlogStore.BusinessLayer.Concrete
         {
             return _articleDal.GetById(id);
         }
+
+        public List<Article> TGetTop3PopularArticles()
+        {
+            return _articleDal.GetTop3PopularArticles();
+        }
+
         public void TInsert(Article entity)
         {
             if (entity.Title.Length >= 10 && entity.Title.Length <= 100 && entity.Description != "" && entity.ImageUrl.Contains("a"))

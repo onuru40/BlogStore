@@ -3,11 +3,6 @@ using BlogStore.DataAccessLayer.Context;
 using BlogStore.DataAccessLayer.Repositories;
 using BlogStore.EntityLayer.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlogStore.DataAccessLayer.EntityFramework
 {
@@ -18,9 +13,23 @@ namespace BlogStore.DataAccessLayer.EntityFramework
         {
             _context = context;
         }
+
+        public AppUser GetAppUserByArticleId(int id)
+        {
+            var userId = _context.Articles.Where(x => x.ArticleId == id).Select(y => y.AppUserId).FirstOrDefault();
+            var userValue = _context.Users.Where(x => x.Id == userId).FirstOrDefault();
+            return userValue;
+        }
+
         public List<Article> GetArticlesWithCategories()
         {
             return _context.Articles.Include(x => x.Category).ToList();
+        }
+
+        public List<Article> GetTop3PopularArticles()
+        {
+            var values = _context.Articles.OrderByDescending(x => x.ArticleId).Take(3).ToList();
+            return values;
         }
     }
 }
