@@ -1,0 +1,18 @@
+Katmanlı Mimari Proje Caseleri
+ 1- Anasayfa da tutarlı veriler olsun. Test deneme vb. olmasın
+ 2- Default/Index de Bloglarda Devamını Oku butonuna tıklandığında makale detayı görüntülensin ve 
+ Makale başlığı altında yazar bilgisi gelsin.
+ 3- Url üzerinde makale Id gözükmesin.
+ 4- Ajax Kullanarak yorum yapma işlemi gerçekleşsin
+ 5- Eğer kullanıcı sisteme login olmadan giriyorsa yorum paneli kullanıcıya gözükmesin.
+ 6- Yazar için verilen tema dosyası ile çalışılsın ve alanları kendinize göre oluşturun. tema link: https://themewagon.com/themes/flexy/
+ 7- Admin paneli tablolarında menülerde yeni makale oluştur, makale listem, profilim olsun profilde kullanıcı bilgilerini güncelleyebilsin,
+ şifre vb. değiştirebilsin.
+ 8- BusinessLayer'da Container klasörünün içine Program.cs deki registrations'ları taşıyıp extension class yapılsın.
+ 9- Yorumların tamamı içinde toksik oranı yüksek olan yorumları ayrı tabloda gösterin ve hugging face ya da OpenAI modelini kullanarak
+ içerik hazırlansın.
+ 10- Menüde yazarlara tıklayınca her satırda 3 yazar gelecek şekilde oluşturulsun ve herhangi bir yazara tıklandığında gelen sayfada
+ o yazara ait blog listesi ve blogları olsun. Aynısı Category içinde yapılacak.
+TARİH: 6 TEMMUZ 23:59
+ 
+
