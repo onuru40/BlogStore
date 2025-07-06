@@ -59,5 +59,10 @@ namespace BlogStore.PresentationLayer.Controllers
             var values = _articleService.TGetArticlesByAppUser(userProfile.Id);
             return View(values);
         }
+
+        public async Task<IActionResult> Dashboards()
+        {
+            return View();
+        }
     }
 }
