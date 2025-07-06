@@ -67,22 +67,22 @@ image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detayl
 🔐 Sisteme daha önce kayıtlı kullanıcıların giriş yaptığı kullanıcı adı ve şifre formu.
 
 📌 Yazar Profili
-image 👨‍💼 Yazarın fotoğrafı, adı, e-posta adresi ve hakkında açıklamalarla birlikte profilinin görüntülendiği sayfa.
+
+![image](https://github.com/user-attachments/assets/a49ca5b3-43f4-466d-9021-f9e59ebcf650)
 
 📌 Profil Güncelleme
-image 🛠️ Yazarların profil fotoğrafı, açıklama ve kişisel bilgilerini düzenleyebildiği sayfa.
+image
 
 📌 Yeni Makale Oluşturma
 
 ![image](https://github.com/user-attachments/assets/998c89d5-5380-4a3b-b964-46efd512d949)
 
- 🖊️ Yazarların başlık, görsel, kategori ve içerik belirleyerek yeni bir makale oluşturduğu form sayfası.
-
 📌 Makale Listeleme (Yazara Özel)
-image 📑 Sadece oturum açmış yazarın kendi oluşturduğu makaleleri görüntüleyebildiği özel liste ekranı.
+image 📑 
 
 📌 Yazar Paneli Dashboard - İstatistik
-image 📊 Yazara özel gösterge panelinde, kategorilere göre makale sayılarını ve dağılımını gösteren grafikler.
+
+
 
 📌 Yazar Paneli Dashboard - Son İçerikler ve Yorumlar
-image 📊 Yazara özel gösterge panelinde, kategorilere göre makale sayılarını ve dağılımını gösteren grafikler.
+
