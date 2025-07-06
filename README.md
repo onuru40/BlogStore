@@ -45,7 +45,12 @@ image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detayl
  👤 Tüm yazarların görselleriyle birlikte listelendiği, her bir yazarın profiline erişim sağlayan tanıtım ekranı.
 
 📌 Kategoriye Göre Makale Filtreleme
-image 📚 Kullanıcıların belirli bir kategori seçerek sadece o kategoriye ait makaleleri görüntüleyebildiği filtreleme ekranı.
+
+![image](https://github.com/user-attachments/assets/91825357-70d7-4ee9-a8f5-fa661faffee1)
+
+![image](https://github.com/user-attachments/assets/09ce7452-1cee-40f2-bd02-ebd360a6308a)
+
+ 📚 Kullanıcıların belirli bir kategori seçerek sadece o kategoriye ait makaleleri görüntüleyebildiği filtreleme ekranı.
 
 📌 Kayıt Ol Sayfası
 image 🧾 Yeni kullanıcıların ad, soyad, e-posta ve şifre bilgileriyle sisteme kayıt olduğu form ekranı.
