@@ -51,7 +51,8 @@ Asp.Net Core Mvc, N-Tier Mimari, Microsoft SQL Server, ASP.NET Core Identity, Hu
 
 📌 Yorumlar Bölümü
 
-image 
+![image](https://github.com/user-attachments/assets/117b2669-c41b-41ce-bc53-0ad4d2ebaa39)
+ 
 
 📌 Yazarlar Sayfası
 
