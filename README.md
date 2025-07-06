@@ -1,8 +1,6 @@
 BlogStore 📝
 BlogStore, ASP.NET Core MVC ile geliştirilen, kullanıcıların makaleler oluşturup okuyabildiği, yorum yapabildiği, yazarlara özel profillerin bulunduğu, yönetici paneli ile içeriklerin kolayca takip edilebildiği çok katmanlı bir blog uygulamasıdır.
 
-Bu proje; gerçek bir blog sistemi geliştirmek isteyen yazılımcılar için hem frontend hem de backend alanında kapsamlı örnekler sunar. Aynı zamanda modern yazılım mimarisi olan katmanlı mimari (Layered Architecture) ile kodun sürdürülebilirliği artırılmıştır.
-
 🚀 Proje Özellikleri
 ✅ Kullanıcı girişi ve kaydı (ASP.NET Core Identity ile)
 ✅ Makale ekleme, silme, güncelleme ve detaylı görüntüleme
@@ -48,7 +46,11 @@ Projede kullanılan temel varlık sınıfları (Entity’ler). Article, Comment,
 
 
 📌 Makale Detay Sayfası
-image image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detaylı olarak gösterildiği ekran.
+
+![image](https://github.com/user-attachments/assets/9d6e8da5-ecce-42ce-b2b7-3e1db29d0282)
+
+
+📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detaylı olarak gösterildiği ekran.
 
 📌 Yorumlar Bölümü
 image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detaylı olarak gösterildiği ekran.
