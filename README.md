@@ -59,7 +59,10 @@ image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detayl
 🧾 Yeni kullanıcıların ad, soyad, e-posta ve şifre bilgileriyle sisteme kayıt olduğu form ekranı.
 
 📌 Giriş Yap Sayfası
-image 🔐 Sisteme daha önce kayıtlı kullanıcıların giriş yaptığı kullanıcı adı ve şifre formu.
+
+![image](https://github.com/user-attachments/assets/08fcd5f1-b48d-4821-85a6-84800bc2a0e0)
+
+🔐 Sisteme daha önce kayıtlı kullanıcıların giriş yaptığı kullanıcı adı ve şifre formu.
 
 📌 Yazar Profili
 image 👨‍💼 Yazarın fotoğrafı, adı, e-posta adresi ve hakkında açıklamalarla birlikte profilinin görüntülendiği sayfa.
