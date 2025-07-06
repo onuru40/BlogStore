@@ -1,33 +1,38 @@
-BlogStore 📝
+BlogStore🎈
 
-ASP.NET Core MVC ile geliştirilen, kullanıcıların makaleler oluşturup okuyabildiği, yorum yapabildiği, yazarlara özel profillerin bulunduğu, yönetici paneli ile içeriklerin kolayca takip edilebildiği çok katmanlı bir blog projesidir.
+ASP.NET Core MVC ile geliştirilen Blog projesidir.
 
 🚀 Proje Özellikleri
+
 ✅ Kullanıcı girişi ve kaydı (ASP.NET Core Identity ile)
-✅ Makale ekleme, silme, güncelleme ve detaylı görüntüleme
-✅ Makalelere kategori atama ve kategori bazlı listeleme
-✅ Kullanıcı yorumları (AJAX + ViewComponent destekli)
+
 ✅ SweetAlert2 ile interaktif bildirim sistemi
+
 ✅ HuggingFace ToxicBERT ile toksik yorum kontrolü
+
 ✅ HuggingFace çeviri API ile yorum çevirisi (TR-EN)
+
 ✅ Gelişmiş yönetici paneli: İstatistikler, içerik ve yorum kontrolü
+
 ✅ Responsive tasarım (mobil ve tablet uyumu)
+
 ✅ Kullanıcı profili düzenleme ve görsel güncelleme
+
+✅ Makale ekleme, silme, güncelleme ve detaylı görüntüleme
+
+✅ Makalelere kategori atama ve kategori bazlı listeleme
+
+✅ Kullanıcı yorumları (AJAX + ViewComponent destekli)
+
 ✅ ViewComponent, jQuery AJAX, Partial View yapıları ile modern yaklaşım
 
-🛠️Teknolojiler
-Katman / Katkı	Teknolojiler / Kütüphaneler
-Backend (Sunucu)	ASP.NET Core MVC 6.0, Entity Framework Core
-Frontend (Arayüz)	Razor View Engine, HTML, CSS, Bootstrap 5, jQuery
-Veritabanı	Microsoft SQL Server
-Güvenlik	ASP.NET Core Identity
-API / NLP Servisleri	Hugging Face (ToxicBERT, Çeviri API)
+🎆Teknolojiler
+
+Asp.Net Core Mvc, N-Tier Mimari, Microsoft SQL Server, ASP.NET Core Identity, Hugging Face API, Razor View Engine, HTML, CSS, Bootstrap 5, jQuery
 
 📌 Kayıt Ol Sayfası
 
 ![image](https://github.com/user-attachments/assets/d36a15fe-88b6-455e-8087-3ad3b631ed2e)
-
-🧾 Yeni kullanıcıların ad, soyad, e-posta ve şifre bilgileriyle sisteme kayıt olduğu form ekranı.
 
 📌 Giriş Yap Sayfası
 
@@ -44,27 +49,19 @@ API / NLP Servisleri	Hugging Face (ToxicBERT, Çeviri API)
 
 ![image](https://github.com/user-attachments/assets/9d6e8da5-ecce-42ce-b2b7-3e1db29d0282)
 
-
-📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detaylı olarak gösterildiği ekran.
-
 📌 Yorumlar Bölümü
-image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detaylı olarak gösterildiği ekran.
+
+image 
 
 📌 Yazarlar Sayfası
 
 ![image](https://github.com/user-attachments/assets/acee719a-744e-48a3-bf44-a93691b41c9b)
-
- 👤 Tüm yazarların görselleriyle birlikte listelendiği, her bir yazarın profiline erişim sağlayan tanıtım ekranı.
 
 📌 Kategoriye Göre Makale Filtreleme
 
 ![image](https://github.com/user-attachments/assets/91825357-70d7-4ee9-a8f5-fa661faffee1)
 
 ![image](https://github.com/user-attachments/assets/09ce7452-1cee-40f2-bd02-ebd360a6308a)
-
- 📚 Kullanıcıların belirli bir kategori seçerek sadece o kategoriye ait makaleleri görüntüleyebildiği filtreleme ekranı.
-
-🔐 Sisteme daha önce kayıtlı kullanıcıların giriş yaptığı kullanıcı adı ve şifre formu.
 
 📌 Yazar Profili
 
@@ -81,10 +78,6 @@ image
 
 ![image](https://github.com/user-attachments/assets/5f8ea108-4c6d-4fba-a072-7ffcbeb96831)
 
-
 📌 Yazar Paneli Dashboard - İstatistik
 
-
-
-📌 Yazar Paneli Dashboard - Son İçerikler ve Yorumlar
-
+![image](https://github.com/user-attachments/assets/09cc7ccc-dc37-4a3d-860f-ed5ad6d4cac8)
