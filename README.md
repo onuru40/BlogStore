@@ -53,7 +53,10 @@ image 📝 Bir makalenin tam içeriğinin, yazara ait bilgilerle birlikte detayl
  📚 Kullanıcıların belirli bir kategori seçerek sadece o kategoriye ait makaleleri görüntüleyebildiği filtreleme ekranı.
 
 📌 Kayıt Ol Sayfası
-image 🧾 Yeni kullanıcıların ad, soyad, e-posta ve şifre bilgileriyle sisteme kayıt olduğu form ekranı.
+
+![image](https://github.com/user-attachments/assets/d36a15fe-88b6-455e-8087-3ad3b631ed2e)
+
+🧾 Yeni kullanıcıların ad, soyad, e-posta ve şifre bilgileriyle sisteme kayıt olduğu form ekranı.
 
 📌 Giriş Yap Sayfası
 image 🔐 Sisteme daha önce kayıtlı kullanıcıların giriş yaptığı kullanıcı adı ve şifre formu.
