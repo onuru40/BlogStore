@@ -71,7 +71,10 @@ image 👨‍💼 Yazarın fotoğrafı, adı, e-posta adresi ve hakkında açık
 image 🛠️ Yazarların profil fotoğrafı, açıklama ve kişisel bilgilerini düzenleyebildiği sayfa.
 
 📌 Yeni Makale Oluşturma
-image 🖊️ Yazarların başlık, görsel, kategori ve içerik belirleyerek yeni bir makale oluşturduğu form sayfası.
+
+![image](https://github.com/user-attachments/assets/998c89d5-5380-4a3b-b964-46efd512d949)
+
+ 🖊️ Yazarların başlık, görsel, kategori ve içerik belirleyerek yeni bir makale oluşturduğu form sayfası.
 
 📌 Makale Listeleme (Yazara Özel)
 image 📑 Sadece oturum açmış yazarın kendi oluşturduğu makaleleri görüntüleyebildiği özel liste ekranı.
